@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1119FD331E28F5F000B72AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1119FD321E28F5F000B72AA2 /* main.m */; };
 		1119FD361E28F5F000B72AA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1119FD351E28F5F000B72AA2 /* AppDelegate.m */; };
-		1119FD391E28F5F000B72AA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1119FD381E28F5F000B72AA2 /* ViewController.m */; };
+		1119FD391E28F5F000B72AA2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1119FD381E28F5F000B72AA2 /* LoginViewController.m */; };
 		1119FD3C1E28F5F000B72AA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1119FD3A1E28F5F000B72AA2 /* Main.storyboard */; };
 		1119FD3F1E28F5F000B72AA2 /* PruebaIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1119FD3D1E28F5F000B72AA2 /* PruebaIOS.xcdatamodeld */; };
 		1119FD411E28F5F000B72AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1119FD401E28F5F000B72AA2 /* Assets.xcassets */; };
@@ -23,8 +23,8 @@
 		1119FD321E28F5F000B72AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1119FD341E28F5F000B72AA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1119FD351E28F5F000B72AA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1119FD371E28F5F000B72AA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1119FD381E28F5F000B72AA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1119FD371E28F5F000B72AA2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1119FD381E28F5F000B72AA2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		1119FD3B1E28F5F000B72AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1119FD3E1E28F5F000B72AA2 /* PruebaIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PruebaIOS.xcdatamodel; sourceTree = "<group>"; };
 		1119FD401E28F5F000B72AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,8 +71,8 @@
 			children = (
 				1119FD341E28F5F000B72AA2 /* AppDelegate.h */,
 				1119FD351E28F5F000B72AA2 /* AppDelegate.m */,
-				1119FD371E28F5F000B72AA2 /* ViewController.h */,
-				1119FD381E28F5F000B72AA2 /* ViewController.m */,
+				1119FD371E28F5F000B72AA2 /* LoginViewController.h */,
+				1119FD381E28F5F000B72AA2 /* LoginViewController.m */,
 				1119FD3A1E28F5F000B72AA2 /* Main.storyboard */,
 				1119FD401E28F5F000B72AA2 /* Assets.xcassets */,
 				1119FD421E28F5F000B72AA2 /* LaunchScreen.storyboard */,
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1119FD3F1E28F5F000B72AA2 /* PruebaIOS.xcdatamodeld in Sources */,
-				1119FD391E28F5F000B72AA2 /* ViewController.m in Sources */,
+				1119FD391E28F5F000B72AA2 /* LoginViewController.m in Sources */,
 				1119FD361E28F5F000B72AA2 /* AppDelegate.m in Sources */,
 				1119FD331E28F5F000B72AA2 /* main.m in Sources */,
 			);
@@ -397,6 +397,7 @@
 				1119FD4A1E28F5F000B72AA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

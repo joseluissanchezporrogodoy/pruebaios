@@ -6,13 +6,13 @@
 //  Copyright © 2017 José Luis Sánchez-Porro Godoy. All rights reserved.
 //
 
-#import "ViewController.h"
-
-@interface ViewController ()
+#import "LoginViewController.h"
+@import FirebaseAuth;
+@interface LoginViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
