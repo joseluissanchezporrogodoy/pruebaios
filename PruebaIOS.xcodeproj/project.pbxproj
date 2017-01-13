@@ -15,6 +15,7 @@
 		1119FD411E28F5F000B72AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1119FD401E28F5F000B72AA2 /* Assets.xcassets */; };
 		1119FD441E28F5F000B72AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1119FD421E28F5F000B72AA2 /* LaunchScreen.storyboard */; };
 		1119FD4C1E28F73600B72AA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1119FD4B1E28F73600B72AA2 /* GoogleService-Info.plist */; };
+		1119FD501E290D8F00B72AA2 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1119FD4F1E290D8F00B72AA2 /* UIViewController+Alert.m */; };
 		22EBC7E015395283D680F9AE /* libPods-PruebaIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A452063F04DC6864678C8547 /* libPods-PruebaIOS.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		1119FD431E28F5F000B72AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1119FD451E28F5F000B72AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1119FD4B1E28F73600B72AA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1119FD4E1E290D8F00B72AA2 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		1119FD4F1E290D8F00B72AA2 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
 		A452063F04DC6864678C8547 /* libPods-PruebaIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PruebaIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B963D1D6619442E351582193 /* Pods-PruebaIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaIOS/Pods-PruebaIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C7DD7AC1B65267B0772380C0 /* Pods-PruebaIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaIOS/Pods-PruebaIOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 		1119FD301E28F5F000B72AA2 /* PruebaIOS */ = {
 			isa = PBXGroup;
 			children = (
+				1119FD4D1E290D1300B72AA2 /* Categories */,
 				1119FD341E28F5F000B72AA2 /* AppDelegate.h */,
 				1119FD351E28F5F000B72AA2 /* AppDelegate.m */,
 				1119FD371E28F5F000B72AA2 /* LoginViewController.h */,
@@ -90,6 +94,15 @@
 				1119FD321E28F5F000B72AA2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1119FD4D1E290D1300B72AA2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1119FD4E1E290D8F00B72AA2 /* UIViewController+Alert.h */,
+				1119FD4F1E290D8F00B72AA2 /* UIViewController+Alert.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		54B83FB4775E1912298BB375 /* Pods */ = {
@@ -236,6 +249,7 @@
 				1119FD3F1E28F5F000B72AA2 /* PruebaIOS.xcdatamodeld in Sources */,
 				1119FD391E28F5F000B72AA2 /* LoginViewController.m in Sources */,
 				1119FD361E28F5F000B72AA2 /* AppDelegate.m in Sources */,
+				1119FD501E290D8F00B72AA2 /* UIViewController+Alert.m in Sources */,
 				1119FD331E28F5F000B72AA2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
