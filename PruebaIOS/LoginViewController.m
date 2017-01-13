@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "UIViewController+Alert.h"
 @import FirebaseAuth;
 @interface LoginViewController ()
 
@@ -23,6 +24,25 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)didTapEmailLogin:(id)sender {
+    [self showSpinner:^{
+        // [START headless_email_auth]
+        [[FIRAuth auth] signInWithEmail:_emailField.text
+                               password:_passwordField.text
+                             completion:^(FIRUser *user, NSError *error) {
+                                 // [START_EXCLUDE]
+                                 [self hideSpinner:^{
+                                     if (error) {
+                                         [self showMessagePrompt:error.localizedDescription];
+                                         return;
+                                     }
+                                     [self.navigationController popViewControllerAnimated:YES];
+                                 }];
+                                 // [END_EXCLUDE]
+                             }];
+        // [END headless_email_auth]
+    }];
 }
 
 
